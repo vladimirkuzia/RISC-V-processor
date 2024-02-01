@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="alu_opcodes_pkg" />
+            <top_module name="glbl" />
+            <top_module name="riscv_pkg" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="11941667fs"></ZoomStartTime>
+      <ZoomEndTime time="49191668fs"></ZoomEndTime>
+      <Cursor1Time time="22550000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="197"></NameColumnWidth>
+      <ValueColumnWidth column_width="89"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/testbench/dut/sysclk" type="logic">
+      <obj_property name="ElementShortName">sysclk</obj_property>
+      <obj_property name="ObjectShortName">sysclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/clk_i" type="logic">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/sw/sw_i" type="array">
+      <obj_property name="ElementShortName">sw_i[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sw_i[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/led/led_o" type="array">
+      <obj_property name="ElementShortName">led_o[15:0]</obj_property>
+      <obj_property name="ObjectShortName">led_o[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/led/led_val" type="array">
+      <obj_property name="ElementShortName">led_val[15:0]</obj_property>
+      <obj_property name="ObjectShortName">led_val[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/led/led_mode" type="logic">
+      <obj_property name="ElementShortName">led_mode</obj_property>
+      <obj_property name="ObjectShortName">led_mode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/core/reg_f/rf_mem[3]" type="array">
+      <obj_property name="ElementShortName">[3][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/core/reg_f/rf_mem[4]" type="array">
+      <obj_property name="ElementShortName">[4][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/led/req_i" type="logic">
+      <obj_property name="ElementShortName">req_i</obj_property>
+      <obj_property name="ObjectShortName">req_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/led/write_enable_i" type="logic">
+      <obj_property name="ElementShortName">write_enable_i</obj_property>
+      <obj_property name="ObjectShortName">write_enable_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/led/write_data_i" type="array">
+      <obj_property name="ElementShortName">write_data_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_data_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/led/addr_i" type="array">
+      <obj_property name="ElementShortName">addr_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_i[31:0]</obj_property>
+   </wvobject>
+</wave_config>
